@@ -121,11 +121,13 @@ Completed games save to your account when you are signed in. If syncing fails, y
 
 ## Privacy and usage tracking
 
-Wordstellar asks whether you want to help improve the game through basic usage counts. Tracking is off unless you choose **Allow tracking**. You can select **No thanks** and keep playing, with the same game and account features.
+Wordstellar asks whether you want to help improve the game through basic usage counts and technical error reports when error reporting is configured. Tracking is off unless you choose **Allow tracking**. You can select **No thanks** and keep playing, with the same game and account features.
 
-If you allow it, Wordstellar counts visits, starts, finishes and share-button clicks. It uses a random browser code to count return visits. Your email, username, answers and score are not included in those counts. Clicking Share is counted, but the game does not track whether you send the result to anyone.
+If you allow it, Wordstellar counts visits, starts, finishes and share-button clicks. It uses a random browser code to count return visits. Your email, username, answers and score are not included in those counts. Browser error reports use a fixed description, an app release and code locations, with sensitive fields removed. Clicking Share is counted, but the game does not track whether you send the result to anyone.
 
-Use **Tracking** at the bottom right of the home screen, or **Privacy and tracking** in Your Universe, to change your choice. Select **Turn tracking off** to stop collection and request removal of earlier usage records from that browser. If removal cannot connect, it retries on your next visit.
+Use **Tracking** at the bottom right of the home screen, or **Privacy and tracking** in Your Universe, to change your choice. Select **Turn tracking off** to stop usage collection and new browser error reports and request removal of earlier usage records from that browser. If removal cannot connect, it retries on your next visit.
+
+The updated consent description may ask you to choose again. Technical server error reports help keep the service working independently of this browser choice. They do not contain account details or submitted answers. Error reports have no browser code, so the usage removal control cannot identify them.
 
 Your choice is remembered for up to 90 days and is separate on each browser or device. Usage records older than 90 days are removed by the daily cleanup job.
 

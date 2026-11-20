@@ -65,7 +65,7 @@ Each person plays their own rounds. There is no live multiplayer lobby.
 
 ## Privacy
 
-Usage tracking is optional and off unless you agree to it. The counts cover visits, game starts, completions and share-button clicks. They do not include your email, username, answers or score.
+Usage tracking and browser error reporting are optional and off unless you agree to them. Error reporting also requires the service to be configured. The counts cover visits, game starts, completions and share-button clicks. They do not include your email, username, answers or score. Technical error reports remove raw messages and sensitive fields. Server diagnostics help keep the service working independently of browser tracking.
 
 Use **Tracking** on the home screen to change your choice or request removal of earlier usage records from that browser.
 
@@ -75,7 +75,7 @@ Read the [privacy notice](https://wordstellar-application.vercel.app/privacy.htm
 
 I built Wordstellar to make a short daily word game that also gives players something to learn between rounds. The space theme turns each accepted word into a visible part of your progress.
 
-The interface uses HTML, CSS and JavaScript, with Jost as its main typeface. Vercel hosts the app and Supabase handles accounts and saved games.
+The interface uses HTML and CSS, TypeScript for core rules and APIs, and JavaScript for existing screens and artwork. Jost is its main typeface. Vercel hosts the app and Supabase handles accounts and saved games. Automated checks include Playwright browser journeys in GitHub Actions, with disposable test accounts separated from production.
 
 Word meanings and candidate synonyms draw on Open English Wordnet, scoring uses wordfreq estimates, and the origin summaries were checked against the Online Etymology Dictionary. Full acknowledgements and data licences are in the app’s [word-source credits](https://wordstellar-application.vercel.app/credits.html).
 
