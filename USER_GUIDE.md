@@ -12,7 +12,7 @@ On the home screen, select the telescope labelled **Light up the sky**. The firs
 
 You can open **How to play** first for a quick reminder of the rules.
 
-There is one challenge each day, with the same words for everyone. All five words are familiar, with no harder final round.
+There is one challenge each day, with the same words for everyone. From 21 November 2026, all five words are familiar, with no harder final round. Older dated challenges keep the words they originally used.
 
 ## Find synonyms
 
@@ -65,6 +65,8 @@ Your total across all five rounds decides your constellation.
 | 20+ | Orion |
 
 The results screen shows your constellation, the other score bands and a breakdown of your answers for each word.
+
+Orion starts at 20 points. These bands apply to previous results too. Your points, accepted answers and streak stay the same; an older result may show a different constellation under the updated bands.
 
 Select **Back to the observatory** to return to the home screen. Once you have finished that day’s challenge, the telescope lets you view your constellation again.
 

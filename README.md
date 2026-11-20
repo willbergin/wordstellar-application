@@ -16,7 +16,7 @@ You don’t need to be a word expert. Each word comes with a definition and an e
 4. Read the word’s origin and see other possible answers before starting the next round.
 5. Finish all five rounds to discover your constellation and share your score.
 
-Everyone gets the same daily challenge. All five words are familiar, with no harder final round. The next challenge arrives at midnight UTC.
+Everyone gets the same daily challenge. From 21 November 2026, all five words are familiar, with no harder final round. Older dated challenges keep their original words. The next challenge arrives at midnight UTC.
 
 ## Points and stars
 
@@ -40,7 +40,7 @@ Categories use word frequency as a guide to familiarity. A longer word is not au
 | 12–19 | Cygnus |
 | 20+ | Orion |
 
-These bands represent progress in the game, rather than the brightness of real constellations.
+Orion starts at 20 points. Previous results use these bands too, with points and streaks preserved. The bands represent progress in the game, rather than the brightness of real constellations.
 
 ## Your Universe
 
