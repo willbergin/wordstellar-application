@@ -12,7 +12,7 @@ On the home screen, select the telescope labelled **Light up the sky**. The firs
 
 You can open **How to play** first for a quick reminder of the rules.
 
-There is one challenge each day, with the same words for everyone. Four words are familiar and the fifth is a little harder.
+There is one challenge each day, with the same words for everyone. All five words are familiar, with no harder final round.
 
 ## Find synonyms
 
@@ -58,11 +58,11 @@ Your total across all five rounds decides your constellation.
 
 | Total points | Constellation |
 | --- | --- |
-| 0–9 | Delphinus |
-| 10–24 | Lyra |
-| 25–44 | Aquila |
-| 45–69 | Cygnus |
-| 70+ | Orion |
+| 0–3 | Delphinus |
+| 4–7 | Lyra |
+| 8–11 | Aquila |
+| 12–19 | Cygnus |
+| 20+ | Orion |
 
 The results screen shows your constellation, the other score bands and a breakdown of your answers for each word.
 
