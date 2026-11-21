@@ -104,3 +104,9 @@ Each round gives you one shining, animated real star, based on that round’s po
 The final recap shows your five round stars, and sharing includes their names without revealing your answers. Reduced-motion settings stop the animations.
 
 The sequence follows approximate apparent brightness from Earth. All five are Milky Way stars; distance alone does not determine brightness. The artwork is stylised. Your final constellation still depends on the total score across all five rounds, and star rewards add no extra points.
+
+## Reliability update, 21 November 2026
+
+Account requests stay tied to the account that started them, including when another tab signs into a different account. Results waiting to sync remain separate from other accounts and guest games. Older challenge links keep their original date while loading, and a temporary connection problem keeps results saved for retry.
+
+The automatic word bank now requires dictionary retrieval in both drafting and review. Automated review can still miss mistakes. It does not judge live answers or assign points during play.

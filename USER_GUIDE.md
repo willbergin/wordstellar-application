@@ -178,3 +178,11 @@ Each round gives you one shining, animated real star, based on that round’s po
 The final recap shows your five round stars, and sharing includes their names without revealing your answers. Reduced-motion settings stop the animations.
 
 The sequence follows approximate apparent brightness from Earth. All five are Milky Way stars; distance alone does not determine brightness. The artwork is stylised. Your final constellation still depends on the total score across all five rounds, and star rewards add no extra points.
+
+## Saved games and account changes
+
+If you switch accounts in another tab, Your Universe changes to that account. Results waiting to upload stay with the account that played them. Guest games remain separate and are only added when you choose to import them.
+
+A temporary connection problem leaves your completed game saved in this browser. Open Your Universe to retry syncing. Keep the browser's site data until the game appears on your other device. Older dated challenge links keep their original date while their words load.
+
+The app keeps a small cache of daily word lists for offline use. Older lists may need a connection to load again; this does not remove saved results or streaks.
