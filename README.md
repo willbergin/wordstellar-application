@@ -91,7 +91,7 @@ New sets use AI-generated original copy, retrieved dictionary evidence and autom
 
 ## Round stars
 
-Each round gives you one animated real star, based on that round’s points:
+Each round gives you one shining, animated real star, based on that round’s points:
 
 | Round points | Star |
 | --- | --- |
@@ -101,6 +101,6 @@ Each round gives you one animated real star, based on that round’s points:
 | 7–9 | Vega |
 | 10+ | Sirius |
 
-Open **Star guide** on a round summary to see the bands. The final recap shows your five round stars, and sharing includes their names without revealing your answers. Reduced-motion settings stop the animations.
+The final recap shows your five round stars, and sharing includes their names without revealing your answers. Reduced-motion settings stop the animations.
 
 The sequence follows approximate apparent brightness from Earth. All five are Milky Way stars; distance alone does not determine brightness. The artwork is stylised. Your final constellation still depends on the total score across all five rounds, and star rewards add no extra points.
