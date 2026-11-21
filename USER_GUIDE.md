@@ -154,3 +154,11 @@ Check that you are using https://wordstellar-application.vercel.app/. If the pag
 If a confirmation or reset email does not arrive, check your spam folder. Avoid repeated requests in quick succession, as the email service limits how often it sends messages.
 
 For an overview of Wordstellar, see the [README](README.md). Word sources and acknowledgements are in the app’s [credits](https://wordstellar-application.vercel.app/credits.html).
+
+## Automatic daily words
+
+A rolling word bank is being introduced. Until activation, the existing daily sets continue. Once active, starting words from the old bank and earlier rolling dates are reserved so they cannot return as later prompts. Submitted synonyms can still be useful on other days.
+
+New sets are prepared in advance using AI, dictionary sources and automated checks. AI does not judge your live answers or decide their points. Lists and points are fixed for that day. Checks can still miss a valid synonym or an error in an explanation.
+
+If a set is not ready, the home screen offers **Try again** instead of serving an old word again. Earlier completed results and streaks stay saved. Familiar vocabulary is finite, so an unlimited supply of suitable new words cannot be guaranteed.

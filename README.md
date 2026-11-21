@@ -82,3 +82,9 @@ Word meanings and candidate synonyms draw on Open English Wordnet, scoring uses 
 This public repository contains the game overview and user guide. The application source is kept in a separate private repository.
 
 Created by [Will Bergin](https://github.com/willbergin).
+
+## Growing the daily word bank
+
+The automatic replacement is implemented and awaiting one-time activation. It prepares dated sets ahead of play and permanently reserves used starting words and declared variants. It also excludes targets from the old bank. The existing daily sets continue until activation.
+
+New sets use AI-generated original copy, retrieved dictionary evidence and automated review. AI does not judge live answers or choose their point values. Checks can still make mistakes, and familiar vocabulary is finite. A missing rolling set prompts the player to try again; it is never filled by silently recycling an old word.
