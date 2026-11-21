@@ -36,8 +36,8 @@ There is no practice mode or live multiplayer lobby. Friends compare their own a
 
 | Area | Technology |
 | --- | --- |
-| Interface | HTML, CSS and SVG, with Jost typography and custom space illustrations. |
-| Application code | TypeScript for core rules, daily state, APIs and diagnostics; JavaScript for existing screens and artwork. |
+| Interface | HTML, CSS and SVG, with locally served Jost typography and custom space illustrations. |
+| Application code | TypeScript for core rules, daily state, APIs, diagnostics and shared views; JavaScript for existing controllers and artwork. |
 | Build | Node.js and esbuild. |
 | Hosting | Vercel static hosting and serverless API functions. |
 | Accounts and saved results | Supabase Auth and PostgreSQL, with browser storage for guest and unfinished progress. |
@@ -63,7 +63,7 @@ There is no React, Next.js or third-party UI component library. The optional Ope
 | Keep the space artwork custom | Stars and constellations make progress visible and give the game its identity. | Bespoke styles and animations need responsive and reduced-motion checks. |
 | Ask before tracking usage | Refusing optional tracking does not change the game. | Usage reports cover consenting browsers rather than every player. |
 
-A recent design-system audit identified cleanup work in shared controls, styles and interaction states. Those changes are on hold; the current interface remains in place.
+The design-system cleanup keeps the observatory and reward artwork, while giving buttons, forms, dialogs and feedback a consistent set of styles and interaction states. Jost is served with the site. Desktop and mobile checks include reference screenshots; real-device checks remain separate.
 
 ## Privacy and sources
 

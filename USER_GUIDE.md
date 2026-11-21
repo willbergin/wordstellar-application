@@ -151,6 +151,12 @@ Deletion permanently removes the login, profile and saved games from the live da
 
 Deletion also turns tracking off and requests usage removal for the browser where you delete the account. Usage is not linked to account IDs, so use Tracking settings on other browsers if you want their earlier usage removed too.
 
+## Display and controls
+
+Wordstellar uses Jost throughout, with the font served by the site. Keyboard users can move between controls with Tab and see the focused control. Dialogs can be closed with Escape or the close button; focus returns to the control that opened them. If your device asks for reduced motion, the moving artwork and shining rewards stay still.
+
+Account fields show errors beside the field. Buttons show when an account action is in progress, and reset confirmations are separate from error messages. No game rules have changed with these display updates.
+
 ## Help and sources
 
 Use [the current Wordstellar site](https://wordstellar-application.vercel.app/). If it looks out of date, refresh; on a desktop browser, Ctrl + Shift + R usually reloads the latest files.
