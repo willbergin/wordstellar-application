@@ -88,3 +88,19 @@ Created by [Will Bergin](https://github.com/willbergin).
 The automatic replacement is implemented and awaiting one-time activation. It prepares dated sets ahead of play and permanently reserves used starting words and declared variants. It also excludes targets from the old bank. The existing daily sets continue until activation.
 
 New sets use AI-generated original copy, retrieved dictionary evidence and automated review. AI does not judge live answers or choose their point values. Checks can still make mistakes, and familiar vocabulary is finite. A missing rolling set prompts the player to try again; it is never filled by silently recycling an old word.
+
+## Round stars
+
+Each round gives you one animated real star, based on that round’s points:
+
+| Round points | Star |
+| --- | --- |
+| 0–1 | Polaris |
+| 2–3 | Deneb |
+| 4–6 | Altair |
+| 7–9 | Vega |
+| 10+ | Sirius |
+
+Open **Star guide** on a round summary to see the bands. The final recap shows your five round stars, and sharing includes their names without revealing your answers. Reduced-motion settings stop the animations.
+
+The sequence follows approximate apparent brightness from Earth. All five are Milky Way stars; distance alone does not determine brightness. The artwork is stylised. Your final constellation still depends on the total score across all five rounds, and star rewards add no extra points.

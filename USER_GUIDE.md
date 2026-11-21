@@ -162,3 +162,19 @@ A rolling word bank is being introduced. Until activation, the existing daily se
 New sets are prepared in advance using AI, dictionary sources and automated checks. AI does not judge your live answers or decide their points. Lists and points are fixed for that day. Checks can still miss a valid synonym or an error in an explanation.
 
 If a set is not ready, the home screen offers **Try again** instead of serving an old word again. Earlier completed results and streaks stay saved. Familiar vocabulary is finite, so an unlimited supply of suitable new words cannot be guaranteed.
+
+## Round stars
+
+Each round gives you one animated real star, based on that round’s points:
+
+| Round points | Star |
+| --- | --- |
+| 0–1 | Polaris |
+| 2–3 | Deneb |
+| 4–6 | Altair |
+| 7–9 | Vega |
+| 10+ | Sirius |
+
+Open **Star guide** on a round summary to see the bands. The final recap shows your five round stars, and sharing includes their names without revealing your answers. Reduced-motion settings stop the animations.
+
+The sequence follows approximate apparent brightness from Earth. All five are Milky Way stars; distance alone does not determine brightness. The artwork is stylised. Your final constellation still depends on the total score across all five rounds, and star rewards add no extra points.
