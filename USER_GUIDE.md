@@ -1,36 +1,34 @@
 # Wordstellar user guide
 
-Five words. Thirty seconds each. Find synonyms, earn points and see which constellation you finish with.
+**Five words. Thirty seconds each. Illuminate your lexicon.**
 
-**Play Wordstellar:** https://wordstellar-application.vercel.app/
+[Play Wordstellar](https://wordstellar-application.vercel.app/) · [Project overview](README.md)
 
-You can play as a guest or create an account to keep completed results across devices.
+You can play as a guest or create an account to keep completed results across devices. The current game uses a fixed word bank with repeating starting words. It does not generate words or judge answers through AI during play.
 
-## Start a game
+## Start the daily challenge
 
-On the home screen, select the telescope labelled **Light up the sky**. The first round starts straight away, so be ready to type.
+On the home screen, select the telescope labelled **Light up the sky**. The first 30-second round starts straight away. Open **How to play** first if you want a reminder.
 
-You can open **How to play** first for a quick reminder of the rules.
+Everyone gets the same five words for that UTC date. Current sets use familiar words, with no harder fifth round. Older dated challenges retain their original prompts.
 
-There is one challenge each day, with the same words for everyone. From 21 November 2026, all five words are familiar, with no harder final round. Older dated challenges keep the words they originally used.
+The current bank contains 50 starting words across a 180-day schedule. A new daily challenge does not mean five words that have never appeared before. Paid automatic word preparation is on hold.
 
 ## Find synonyms
 
-Each round shows a word, its definition and an example sentence. Use the meaning shown when thinking of answers.
+Each round shows a word, a definition and an example sentence. Answer for that meaning: a word with several meanings may have different synonyms for each.
 
-Type one synonym into the box, then press **Enter** or select **Add**. Keep going until the 30 seconds are up.
+Type one synonym, then press **Enter** or select **Add**. Keep submitting answers until time runs out. If the word is **happy**, you might try **glad**, **cheerful** or **joyful**.
 
-For example, if the word is **happy**, you could try **glad**, **cheerful** or **joyful**.
-
-- Every accepted answer lights one star.
+- Each accepted answer lights one star in the round's sky.
 - Capitals do not matter.
-- Repeated answers do not score again. Listed spelling variants count as the same answer.
-- The starting word does not count as an answer.
-- Wrong answers do not lose points. Try another synonym.
+- A repeated answer earns no extra points. Listed spelling variants count as one answer.
+- The starting word does not count as a synonym.
+- Rejected attempts do not lose points. Try another word.
 
-The game checks a set list of answers for each word. If it does not accept a word you think fits, that word may be missing from the list or may not match the meaning given.
+Answers are checked against a fixed list for the meaning shown. A valid synonym can still be missing from that list. An unaccepted answer does not necessarily mean the word is wrong in every context.
 
-## Earn points
+## Points and stars
 
 | Answer category | Points |
 | --- | --- |
@@ -38,23 +36,31 @@ The game checks a set list of answers for each word. If it does not accept a wor
 | Uncommon | 2 |
 | Rare | 3 |
 
-Less familiar synonyms are usually worth more. The categories use word frequency as a guide, so a long word is not automatically worth more points.
+Categories use word frequency as a guide to familiarity, not how often other players submit an answer. A longer word is not automatically worth more points.
 
-Every accepted answer adds one star, whether it earns 1, 2 or 3 points. Your star count and point total can therefore be different.
+Each accepted synonym lights one star whether it earns 1, 2 or 3 points. Your number of accepted answers and your points can therefore be different.
 
-## After each round
+## Between rounds
 
-When time runs out, you’ll see your round score, the stars you lit and a short explanation of where the starting word came from.
+When time runs out, the game shows your round score, one named round-star reward, the starting word's origin and **A few more possibilities** you could have tried.
 
-**A few more possibilities** shows other answers you could have used, along with their points.
+| Round points | Round star |
+| --- | --- |
+| 0–1 | Polaris |
+| 2–3 | Deneb |
+| 4–6 | Altair |
+| 7–9 | Vega |
+| 10+ | Sirius |
 
-Select **Ready for round 2**, or the next round number, to continue. The next 30 seconds starts when you select that button.
+You receive one named reward for each of the five rounds. These rewards do not add points and are separate from the individual stars lit by accepted synonyms.
 
-After the fifth round, select **See your results**.
+The star artwork shines and changes its glow. Reduced-motion settings stop the animations. The sequence follows approximate apparent brightness from Earth, rather than distance or intrinsic power. The artwork is stylised.
 
-## Your constellation
+Select **Ready for round 2**, or the next round number, when you want to continue. The next timer starts on that click. After round five, select **See your results** to complete the game and record the result.
 
-Your total across all five rounds decides your constellation.
+## Your final constellation
+
+Your combined points across all five rounds decide the constellation.
 
 | Total points | Constellation |
 | --- | --- |
@@ -64,125 +70,91 @@ Your total across all five rounds decides your constellation.
 | 12–19 | Cygnus |
 | 20+ | Orion |
 
-The results screen shows your constellation, the other score bands and a breakdown of your answers for each word.
+The results show your constellation, the other score bands, all five round stars and a breakdown of your accepted answers. These constellation bands represent game progress, not the brightness of real constellations.
 
-Orion starts at 20 points. These bands apply to previous results too. Your points, accepted answers and streak stay the same; an older result may show a different constellation under the updated bands.
+Older results use the current bands too. Their points, accepted answers and completed dates stay the same.
 
-Select **Back to the observatory** to return to the home screen. Once you have finished that day’s challenge, the telescope lets you view your constellation again.
+Select **Back to the observatory** to return home. Once a daily game is complete, the telescope reopens that result. There is no separate practice mode or second scored attempt for the same date.
 
 ## Share with friends
 
-Select **Share your score** on the results screen. Copy the result into a message or post to compare scores.
+Select **Share your score**, then paste the copied text into a message or post. It includes your constellation, total points, accepted-answer count, round-star names and round scores, plus a link to that day's challenge. It does not reveal your answers.
 
-The shared text includes your points, constellation, round scores and a link to that day’s challenge. It does not list your answers, so friends can play without seeing them first.
+If automatic copying is unavailable, the game shows text you can select and copy yourself.
 
-If automatic copying is unavailable, select and copy the text provided.
-
-This is a shared daily challenge rather than a live multiplayer game. Each person plays their own five rounds.
+This is a shared daily challenge, not a live multiplayer session. Each friend plays their own five rounds.
 
 ## Daily reset and streaks
 
-The next challenge arrives at **midnight UTC**. The countdown on the home screen shows how long is left.
+The challenge changes at **midnight UTC**. The home-screen countdown shows how long is left. In the UK, this is midnight in winter and 1 am during British Summer Time.
 
-Finish challenges on consecutive UTC dates to build your streak. Complete all five rounds and open the results screen to record a finished game.
+Completed challenges on consecutive UTC dates build a streak. Finish all five rounds and open the results screen so the game is recorded as complete. The first completed result for a date stays as it is.
 
-The reset time can differ from local midnight. In the UK, it is midnight in winter and 1 am during British Summer Time.
+A dated link can reopen an older challenge or your saved result for that date. A future-dated link opens today's challenge instead.
 
-A dated link from a friend can open an older challenge. A link to a future date opens today’s game instead.
+## Leaving, refreshing and resuming
 
-## Leaving or refreshing
+Progress is saved in your browser. Return to the same site in the same browser and select **Continue your discovery** to resume an unfinished game.
 
-Your progress saves in your browser. If you leave partway through, return to the same site in the same browser and select **Continue your discovery**.
+An active round's clock keeps running while you are away, refreshing or deciding whether to leave. Returning does not give you another 30 seconds. If its time has expired, the game shows the round summary.
 
-The clock keeps running during an active round, including while you are away or deciding whether to leave. Refreshing does not restart it. If time has run out when you return, you’ll see that round’s summary.
-
-Between rounds, there is no active timer until you start the next one.
+Between rounds, there is no active timer until you start the next one. An unfinished game does not sync to another browser or device, even when you have an account.
 
 ## Your Universe
 
-Select **Your Universe** in the bottom left of the home screen. Choose **Create an account**, or log in with your email and password if you already have one.
+Select **Your Universe** at the bottom left of the home screen. Log in with your email and password, or choose **Create an account**.
 
-Register with your email, a username of 3–24 letters, numbers or underscores, and a password of at least 12 characters. Your username appears in Your Universe. Capitals do not matter in your username. Follow the confirmation email before logging in.
+Registration asks for an email, a username of 3–24 letters, numbers or underscores, and a password of at least 12 characters. Username capitals do not matter. Your username appears on your dashboard; your email is used for login and recovery. Follow the confirmation email before logging in.
 
-Your dashboard shows:
+Your Universe shows:
 
-- Your current streak and best streak.
+- Current streak and best streak.
 - Games played, total points and synonyms found.
-- Your best score and average score.
-- Your last three completed games, with their scores and constellations.
+- Best score and average score.
+- The last three completed games and their constellations.
 
-Select **View result** to reopen a previous game’s result. Use **Observatory** to return home and **Log out** when you are finished on a shared device.
+Choose **View result** to reopen a completed game. Use **Observatory** to return home and **Log out** when you finish on a shared device.
 
-If you played before creating an account, **Add my saved games** lets you bring completed games from this browser into your account. Only do this if those games are yours. An existing account result for the same day will stay as it is.
+**Add my saved games** imports completed guest games from the same browser when you choose to do so. Only add games that are yours. An existing account result for the same date is not replaced.
 
-If you forget your password, choose **Forgot your password?** on the login screen. Enter your email and follow the reset link to choose a new password.
+For a forgotten password, choose **Forgot your password?** on the login screen and follow the emailed reset link. If an email does not arrive, check spam and avoid repeated requests in quick succession.
 
-Completed games save to your account when you are signed in. If syncing fails, your browser keeps the result. Open Your Universe when you are connected again to retry.
+## Saving across devices
 
-## Privacy and usage tracking
+Guest games stay in the browser and site address where you played. Clearing site data or closing a private-browsing session can remove that progress. Creating an account does not automatically import guest games.
 
-Wordstellar asks whether you want to help improve the game through basic usage counts and technical error reports when error reporting is configured. Tracking is off unless you choose **Allow tracking**. You can select **No thanks** and keep playing, with the same game and account features.
+Signed-in completed results sync to the account. To see them elsewhere, log in to the same account on the current Wordstellar site. If a connection fails, the original browser keeps the result waiting to sync. Open **Your Universe** when connected to retry. Keep the browser's site data until you have confirmed that the result appears on your other device.
 
-If you allow it, Wordstellar counts visits, starts, finishes and share-button clicks. It uses a random browser code to count return visits. Your email, username, answers and score are not included in those counts. Browser error reports use a fixed description, an app release and code locations, with sensitive fields removed. Clicking Share is counted, but the game does not track whether you send the result to anyone.
+Switching accounts in another tab updates Your Universe. Pending results stay with the account that played them. They are not moved into the new account or mixed with guest results.
 
-Use **Tracking** at the bottom right of the home screen, or **Privacy and tracking** in Your Universe, to change your choice. Select **Turn tracking off** to stop usage collection and new browser error reports and request removal of earlier usage records from that browser. If removal cannot connect, it retries on your next visit.
+The app keeps a small cache of fetched word content. Older content may need a connection to load again. This cache is separate from saved game results and does not guarantee that the whole app works offline.
 
-The updated consent description may ask you to choose again. Technical server error reports help keep the service working independently of this browser choice. They do not contain account details or submitted answers. Error reports have no browser code, so the usage removal control cannot identify them.
+Accounts and saves from earlier versions hosted at another address do not automatically transfer to this site.
 
-Your choice is remembered for up to 90 days and is separate on each browser or device. Usage records older than 90 days are removed by the daily cleanup job.
+## Privacy and tracking
 
-The **Privacy** link beside Tracking opens the [privacy notice](https://wordstellar-application.vercel.app/privacy.html). For privacy questions or requests, email **willowrangers23@gmail.com**.
+Optional usage tracking and browser error reporting are off unless you agree. Select **No thanks** to keep playing without them, or **Allow tracking** if you want to contribute basic usage information. The same game and account features work either way.
 
-## Delete your account
+Usage counts cover visits, game starts, completions and share-button clicks. A random browser code helps count return visits. The counts do not include your email, username, answers or score. A share click does not reveal whether you actually sent a result to anyone.
 
-In Your Universe, select **Delete account**. Enter your current password and type **DELETE**, then choose **Delete my account**. You can cancel with **Keep my account**.
+Use **Tracking** at the bottom right of the home screen, or **Privacy and tracking** in Your Universe, to change your choice. Turning tracking off stops usage collection and new browser error reports, and requests removal of earlier usage records associated with that browser. If removal cannot connect, it stays queued for retry.
 
-Deletion permanently removes your login, profile and saved games from the live database. It clears that account’s cached results on the current browser. Guest games stay separate. On another device, sign out or clear site data to remove any locally cached copies.
+Preferences are separate on each browser and last up to 90 days. The daily cleanup removes usage records older than 90 days. Technical server error reports operate separately to help keep the service working; they exclude account details and submitted answers. Error reports have no browser code, so the usage-removal control cannot identify them.
 
-Tracking is turned off and removal is requested for usage from the browser where you delete the account. Usage records are not linked to your account, so use Tracking settings on other browsers if you also want their usage removed.
+Read the [privacy notice](https://wordstellar-application.vercel.app/privacy.html). For questions or requests, contact [willowrangers23@gmail.com](mailto:willowrangers23@gmail.com).
 
-## Where your progress is kept
+## Delete an account
 
-You can play as a guest or sign in through **Your Universe**. Guest results and streaks belong to the browser and site address you used. Signed-in results are saved to your account.
+In Your Universe, select **Delete account**, enter your current password and type **DELETE**. Select **Delete my account** to confirm, or **Keep my account** to cancel.
 
-For guest play, use the same browser and avoid clearing its site data. Private browsing may discard progress when you close it. To see account results on another device, log in to the same hosted site. An unfinished round still belongs to the browser where you started it.
+Deletion permanently removes the login, profile and saved games from the live database. It clears that account's cached results on the current browser; guest games stay separate. On other devices, sign out or clear site data to remove local cached copies.
 
-## If something does not look right
+Deletion also turns tracking off and requests usage removal for the browser where you delete the account. Usage is not linked to account IDs, so use Tracking settings on other browsers if you want their earlier usage removed too.
 
-Check that you are using https://wordstellar-application.vercel.app/. If the page looks out of date, refresh it. On a desktop browser, Ctrl + Shift + R usually reloads the latest files.
+## Help and sources
 
-If a confirmation or reset email does not arrive, check your spam folder. Avoid repeated requests in quick succession, as the email service limits how often it sends messages.
+Use [the current Wordstellar site](https://wordstellar-application.vercel.app/). If it looks out of date, refresh; on a desktop browser, Ctrl + Shift + R usually reloads the latest files.
 
-For an overview of Wordstellar, see the [README](README.md). Word sources and acknowledgements are in the app’s [credits](https://wordstellar-application.vercel.app/credits.html).
+If a challenge cannot be loaded, use **Try again** or return when connected. Do not clear site data to fix a sync problem while results are still waiting to upload.
 
-## Automatic daily words
-
-A rolling word bank is being introduced. Until activation, the existing daily sets continue. Once active, starting words from the old bank and earlier rolling dates are reserved so they cannot return as later prompts. Submitted synonyms can still be useful on other days.
-
-New sets are prepared in advance using AI, dictionary sources and automated checks. AI does not judge your live answers or decide their points. Lists and points are fixed for that day. Checks can still miss a valid synonym or an error in an explanation.
-
-If a set is not ready, the home screen offers **Try again** instead of serving an old word again. Earlier completed results and streaks stay saved. Familiar vocabulary is finite, so an unlimited supply of suitable new words cannot be guaranteed.
-
-## Round stars
-
-Each round gives you one shining, animated real star, based on that round’s points:
-
-| Round points | Star |
-| --- | --- |
-| 0–1 | Polaris |
-| 2–3 | Deneb |
-| 4–6 | Altair |
-| 7–9 | Vega |
-| 10+ | Sirius |
-
-The final recap shows your five round stars, and sharing includes their names without revealing your answers. Reduced-motion settings stop the animations.
-
-The sequence follows approximate apparent brightness from Earth. All five are Milky Way stars; distance alone does not determine brightness. The artwork is stylised. Your final constellation still depends on the total score across all five rounds, and star rewards add no extra points.
-
-## Saved games and account changes
-
-If you switch accounts in another tab, Your Universe changes to that account. Results waiting to upload stay with the account that played them. Guest games remain separate and are only added when you choose to import them.
-
-A temporary connection problem leaves your completed game saved in this browser. Open Your Universe to retry syncing. Keep the browser's site data until the game appears on your other device. Older dated challenge links keep their original date while their words load.
-
-The app keeps a small cache of daily word lists for offline use. Older lists may need a connection to load again; this does not remove saved results or streaks.
+Read the [project overview](README.md) for the feature and technology summary, or the app's [word-source credits](https://wordstellar-application.vercel.app/credits.html) for acknowledgements and data licences.

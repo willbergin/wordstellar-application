@@ -2,111 +2,75 @@
 
 **Illuminate your lexicon.**
 
-Wordstellar is a daily synonym game set beneath a sky of stars. You get five words, one at a time, with 30 seconds to find as many synonyms as you can. Every accepted answer lights a star. Less familiar synonyms earn more points, and your final score reveals a constellation.
+[Play Wordstellar](https://wordstellar-application.vercel.app/) · [User guide](USER_GUIDE.md)
 
-You don’t need to be a word expert. Each word comes with a definition and an example sentence to get you started.
+## What it is
 
-**[Play Wordstellar](https://wordstellar-application.vercel.app/)** · **[Read the user guide](USER_GUIDE.md)**
+Wordstellar is a daily synonym game with a space theme. You get five words, one at a time, and 30 seconds to find as many synonyms as you can. Every accepted answer lights a star. Less familiar answers earn more points, and your total reveals a constellation.
 
-## How it works
+You do not need to be an etymology expert. Each word comes with a definition and an example sentence, followed by a short explanation of its origins after the round.
 
-1. Start the daily challenge using the telescope on the home screen.
-2. Type a synonym and press Enter, or select Add.
-3. Keep finding words until the 30 seconds are up.
-4. Read the word’s origin and see other possible answers before starting the next round.
-5. Finish all five rounds to discover your constellation and share your score.
+I built Wordstellar to make a short daily game that gives people something to learn as well as a score to compare with friends.
 
-Everyone gets the same daily challenge. From 21 November 2026, all five words are familiar, with no harder final round. Older dated challenges keep their original words. The next challenge arrives at midnight UTC.
+This public repository contains the project overview and player guide. The application source is kept in a separate private repository.
 
-## Points and stars
+## Key features
 
-| Answer category | Points |
+- **A shared daily challenge:** five familiar words, five 30-second rounds and a reset at midnight UTC. There is no harder final round.
+- **Weighted scoring:** common synonyms earn 1 point, uncommon synonyms 2 and rare synonyms 3. Repeats do not score again, and rejected attempts do not lose points.
+- **Something to learn:** word-origin explanations and other possible answers between rounds.
+- **Round stars:** Polaris, Deneb, Altair, Vega or Sirius, based on each round's score.
+- **A final constellation:** Delphinus, Lyra, Aquila, Cygnus or Orion, based on total points. Orion starts at 20.
+- **Sharing without spoilers:** a result includes your constellation, points, round stars and a dated challenge link, leaving out your answers.
+- **Guest play:** start without registration and keep progress in the same browser.
+- **Your Universe:** optional accounts with completed results across devices, current and best streaks, all-time statistics and the last three games.
+- **Account controls:** import your own guest games, recover a password or delete an account.
+- **An interactive observatory:** telescope launch, moving stars, planets and rockets, with reduced-motion support.
+- **Optional tracking:** usage counts and browser error reports require consent. You can decline and keep playing.
+
+The current game draws from **50 starting words across a 180-day repeating schedule**. Words repeat; this is not a promise of new words forever. Automatic AI word preparation has been built but is paused to avoid paid API usage. Playing and checking answers make no AI requests.
+
+There is no practice mode or live multiplayer lobby. Friends compare their own attempts at the same daily challenge. The [user guide](USER_GUIDE.md) explains the rules and reward bands.
+
+## Tech stack
+
+| Area | Technology |
 | --- | --- |
-| Common | 1 |
-| Uncommon | 2 |
-| Rare | 3 |
+| Interface | HTML, CSS and SVG, with Jost typography and custom space illustrations. |
+| Application code | TypeScript for core rules, daily state, APIs and diagnostics; JavaScript for existing screens and artwork. |
+| Build | Node.js and esbuild. |
+| Hosting | Vercel static hosting and serverless API functions. |
+| Accounts and saved results | Supabase Auth and PostgreSQL, with browser storage for guest and unfinished progress. |
+| Testing | Node.js tests, jsdom, PGlite and Playwright browser journeys. |
+| Continuous integration | GitHub Actions, including account tests with disposable local services. |
+| Error reporting | Sentry, with sanitised reports and consent for browser diagnostics. |
+| Word data | Open English Wordnet, wordfreq familiarity estimates and researched word origins. |
 
-Each accepted answer lights one star, regardless of its points. Repeated answers and listed spelling variants count once. Wrong answers do not lose points.
+There is no React, Next.js or third-party UI component library. The optional OpenAI integration is not active in the current word-bank setup.
 
-Categories use word frequency as a guide to familiarity. A longer word is not automatically worth more. Answers are checked against reviewed lists for the meaning shown, so some valid synonyms may still be missing.
+## Technical decisions and trade-offs
 
-## Find your constellation
+| Decision | Reason | Trade-off |
+| --- | --- | --- |
+| Keep the frontend lightweight | Plain browser code suits a small project maintained by one creator. | Custom screen controllers and styles need ongoing maintenance as the game grows. |
+| Introduce TypeScript gradually | Shared rules and APIs can be checked without rewriting the whole interface. | Some screens and illustrations still use JavaScript. |
+| Check a fixed list of synonyms | Answers and scores stay consistent, with no model delay or AI charge during play. | A valid synonym may be missing from the list or may fit a different meaning. |
+| Keep the existing word bank | The current game does not need paid AI preparation. | Starting words repeat, and expanding the bank requires a content update. |
+| Use word frequency for scoring | It gives a consistent guide to how familiar an answer is. | A long word is not automatically rare, and frequency does not measure complexity exactly. |
+| Let guests start immediately | People can try the game without sharing an email. | Guest and unfinished progress belongs to that browser and can disappear if site data is cleared. |
+| Make accounts optional | Completed results can follow players across devices. | Accounts rely on external authentication, database and email services. Unfinished rounds remain local. |
+| Recalculate saved scores | The server checks accepted answers instead of trusting a submitted total. | Browser timers and downloadable answer lists mean this remains a casual game, not a verified competitive system. |
+| Keep the space artwork custom | Stars and constellations make progress visible and give the game its identity. | Bespoke styles and animations need responsive and reduced-motion checks. |
+| Ask before tracking usage | Refusing optional tracking does not change the game. | Usage reports cover consenting browsers rather than every player. |
 
-| Total points | Constellation |
-| --- | --- |
-| 0–3 | Delphinus |
-| 4–7 | Lyra |
-| 8–11 | Aquila |
-| 12–19 | Cygnus |
-| 20+ | Orion |
+A recent design-system audit identified cleanup work in shared controls, styles and interaction states. Those changes are on hold; the current interface remains in place.
 
-Orion starts at 20 points. Previous results use these bands too, with points and streaks preserved. The bands represent progress in the game, rather than the brightness of real constellations.
+## Privacy and sources
 
-## Your Universe
+Use **Tracking** on the home screen to change your preference or request removal of earlier usage records from that browser. Account deletion is available in **Your Universe**. Server diagnostics operate separately from optional browser tracking, with sensitive fields removed.
 
-You can play without an account. Create one through **Your Universe**, at the bottom left of the home screen, to keep completed results across browsers and devices.
+Read the [privacy notice](https://wordstellar-application.vercel.app/privacy.html) or contact [willowrangers23@gmail.com](mailto:willowrangers23@gmail.com) with a privacy question.
 
-Your Universe shows:
-
-- Your current streak and best streak.
-- Games played, total points and synonyms found.
-- Your best score and average score.
-- Your last three completed games and their constellations.
-
-You can bring earlier guest games from the same browser into your account, reset your password or delete your account.
-
-An unfinished round stays in the browser where you started it. Leaving or refreshing does not stop its clock.
-
-## Play with friends
-
-Share your result to compare scores on the same daily challenge. The shared text includes your constellation, points, round scores and a link to play. It leaves out your answers so friends can try it first.
-
-Each person plays their own rounds. There is no live multiplayer lobby.
-
-## Privacy
-
-Usage tracking and browser error reporting are optional and off unless you agree to them. Error reporting also requires the service to be configured. The counts cover visits, game starts, completions and share-button clicks. They do not include your email, username, answers or score. Technical error reports remove raw messages and sensitive fields. Server diagnostics help keep the service working independently of browser tracking.
-
-Use **Tracking** on the home screen to change your choice or request removal of earlier usage records from that browser.
-
-Read the [privacy notice](https://wordstellar-application.vercel.app/privacy.html). For privacy questions or requests, contact [willowrangers23@gmail.com](mailto:willowrangers23@gmail.com).
-
-## About the project
-
-I built Wordstellar to make a short daily word game that also gives players something to learn between rounds. The space theme turns each accepted word into a visible part of your progress.
-
-The interface uses HTML and CSS, TypeScript for core rules and APIs, and JavaScript for existing screens and artwork. Jost is its main typeface. Vercel hosts the app and Supabase handles accounts and saved games. Automated checks include Playwright browser journeys in GitHub Actions, with disposable test accounts separated from production.
-
-Word meanings and candidate synonyms draw on Open English Wordnet, scoring uses wordfreq estimates, and the origin summaries were checked against the Online Etymology Dictionary. Full acknowledgements and data licences are in the app’s [word-source credits](https://wordstellar-application.vercel.app/credits.html).
-
-This public repository contains the game overview and user guide. The application source is kept in a separate private repository.
+Word-source acknowledgements and data licences are available in the app's [credits](https://wordstellar-application.vercel.app/credits.html). The constellation bands are game rewards, not an astronomical brightness ranking. Round stars follow approximate apparent brightness from Earth; the artwork is stylised.
 
 Created by [Will Bergin](https://github.com/willbergin).
-
-## Growing the daily word bank
-
-The automatic replacement is implemented and awaiting one-time activation. It prepares dated sets ahead of play and permanently reserves used starting words and declared variants. It also excludes targets from the old bank. The existing daily sets continue until activation.
-
-New sets use AI-generated original copy, retrieved dictionary evidence and automated review. AI does not judge live answers or choose their point values. Checks can still make mistakes, and familiar vocabulary is finite. A missing rolling set prompts the player to try again; it is never filled by silently recycling an old word.
-
-## Round stars
-
-Each round gives you one shining, animated real star, based on that round’s points:
-
-| Round points | Star |
-| --- | --- |
-| 0–1 | Polaris |
-| 2–3 | Deneb |
-| 4–6 | Altair |
-| 7–9 | Vega |
-| 10+ | Sirius |
-
-The final recap shows your five round stars, and sharing includes their names without revealing your answers. Reduced-motion settings stop the animations.
-
-The sequence follows approximate apparent brightness from Earth. All five are Milky Way stars; distance alone does not determine brightness. The artwork is stylised. Your final constellation still depends on the total score across all five rounds, and star rewards add no extra points.
-
-## Reliability update, 21 November 2026
-
-Account requests stay tied to the account that started them, including when another tab signs into a different account. Results waiting to sync remain separate from other accounts and guest games. Older challenge links keep their original date while loading, and a temporary connection problem keeps results saved for retry.
-
-The automatic word bank now requires dictionary retrieval in both drafting and review. Automated review can still miss mistakes. It does not judge live answers or assign points during play.
